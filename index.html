@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Free Digital Portfolio</title>
+    <!-- Load Tailwind CSS via CDN - No installation required! -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles to ensure the Inter font is used */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            color: #1f2937;
+        }
+    </style>
+</head>
+<body class="antialiased">
 
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-lg sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-indigo-600">My Online Project</h1>
+            <nav class="space-x-4">
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-150">About</a>
+                <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-150">Projects</a>
+                <a href="#contact" class="px-4 py-2 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition duration-150 shadow-md">Get in Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-indigo-700 text-white py-24 sm:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl sm:text-6xl font-extrabold mb-4 leading-tight">
+                Hello, I'm a Creator.
+            </h2>
+            <p class="text-indigo-200 text-xl sm:text-2xl mb-8 max-w-3xl mx-auto">
+                Building amazing things online, one browser tab at a time. No software needed!
+            </p>
+            <a href="#projects" class="inline-block px-8 py-3 text-lg font-semibold bg-white text-indigo-700 rounded-lg shadow-xl hover:bg-indigo-100 transition duration-300 transform hover:scale-105">
+                View My Work
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-12">
+                <div class="lg:col-span-6">
+                    <h3 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-indigo-500 pb-2">
+                        About This Project
+                    </h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        This entire structure was built using just a web browser and free online tools, demonstrating that you don't need expensive software or complex setups to launch a professional-looking website. My focus is on simplicity, responsiveness, and clean design.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        I specialize in quick prototypes and effective landing pages. I enjoy tackling new challenges and turning ideas into digital reality as fast as possible. Let's collaborate on your next idea!
+                    </p>
+                </div>
+                <div class="mt-10 lg:mt-0 lg:col-span-6 flex justify-center items-center">
+                    <!-- Placeholder image to represent a quick visual -->
+                    <div class="w-full max-w-md h-64 bg-gray-100 rounded-xl shadow-lg flex items-center justify-center border-4 border-indigo-200">
+                        <span class="text-indigo-500 font-bold text-xl">
+                            
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects/Skills Section (Mock Content) -->
+    <section id="projects" class="py-16 sm:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-gray-900 mb-10 text-center">Key Skills & Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
+                    <h4 class="text-xl font-semibold text-indigo-600 mb-3">Responsive Design</h4>
+                    <p class="text-gray-600">Websites that look great on any device, from mobile phones to large desktop screens. Adaptability is key!</p>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
+                    <h4 class="text-xl font-semibold text-indigo-600 mb-3">Fast Loading Speed</h4>
+                    <p class="text-gray-600">Focusing on optimized content and clean code to ensure the fastest possible user experience.</p>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
+                    <h4 class="text-xl font-semibold text-indigo-600 mb-3">Browser Deployment</h4>
+                    <p class="text-gray-600">Expertise in using services like Netlify and GitHub Pages for zero-cost, quick online hosting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 sm:py-24 bg-indigo-700">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-3xl font-bold text-white mb-4">Ready to Launch Your Idea?</h3>
+            <p class="text-indigo-200 text-lg mb-8">
+                The fastest way to get started is to use a free online builder, but I'm here if you want to use the code approach!
+            </p>
+            <!-- Mock Contact Action -->
+            <button class="px-8 py-3 text-lg font-semibold bg-white text-indigo-700 rounded-lg shadow-xl hover:bg-indigo-100 transition duration-300 transform hover:scale-105">
+                Send Me an Email (Mock Button)
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            &copy; 2025 My Online Project. Built 100% in a Web Browser.
+        </div>
+    </footer>
+
+</body>
+</html>
