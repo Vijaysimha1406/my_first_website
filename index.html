@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Free Digital Portfolio</title>
-    <!-- Load Tailwind CSS via CDN - No installation required! -->
+    <title>My Personal Digital Portfolio</title>
+    <!-- Load Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom styles to ensure the Inter font is used */
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f7f7f7;
@@ -20,11 +19,10 @@
     <!-- Header & Navigation -->
     <header class="bg-white shadow-lg sticky top-0 z-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-indigo-600">My Online Project</h1>
+            <h1 class="text-2xl font-bold text-indigo-600">Vijay Simha's Projects</h1>
             <nav class="space-x-4">
                 <a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-150">About</a>
-                <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-150">Projects</a>
-                <a href="https://vijaysimha1406.github.io/Agromist/agromist.html" class="px-4 py-2 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition duration-150 shadow-md">Go to Agromist</a>
+                <a href="https://vijaysimha1406.github.io/Agromist/agromist.html" target="_blank" class="px-4 py-2 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition duration-150 shadow-md">Agromist Project</a>
             </nav>
         </div>
     </header>
@@ -39,8 +37,9 @@
                 Building amazing things online, one propeller at a time. View my latest drone project!
             </p>
             
-            <!-- CRITICAL CHANGE: ABSOLUTE LINK TO AGROMIST REPOSITORY -->
+            <!-- CRITICAL LINK: This button points to your separate Agromist repository. -->
             <a href="https://vijaysimha1406.github.io/Agromist/agromist.html" 
+               target="_blank" 
                class="inline-block px-8 py-3 text-lg font-semibold bg-white text-indigo-700 rounded-lg shadow-xl hover:bg-indigo-100 transition duration-300 transform hover:scale-105">
                 View My Work
             </a>
@@ -54,20 +53,20 @@
             <div class="lg:grid lg:grid-cols-12 lg:gap-12">
                 <div class="lg:col-span-6">
                     <h3 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-indigo-500 pb-2">
-                        About This Project
+                        About My Approach
                     </h3>
                     <p class="text-gray-600 mb-6 leading-relaxed">
-                        This entire structure was built using just a web browser and free online tools, demonstrating that you don't need expensive software or complex setups to launch a professional-looking website. My focus is on simplicity, responsiveness, and clean design.
+                        I focus on building functional and responsive web solutions using minimal tools. This portfolio and the Agromist project were both developed entirely using a web browser and free hosting services like GitHub Pages.
                     </p>
                     <p class="text-gray-600 leading-relaxed">
-                        I specialize in quick prototypes and effective landing pages. I enjoy tackling new challenges and turning ideas into digital reality as fast as possible. Let's collaborate on your next idea!
+                        My goal is always simplicity, responsiveness, and clean design. I enjoy tackling new challenges and turning ideas into digital reality as fast as possible.
                     </p>
                 </div>
                 <div class="mt-10 lg:mt-0 lg:col-span-6 flex justify-center items-center">
                     <!-- Placeholder image to represent a quick visual -->
                     <div class="w-full max-w-md h-64 bg-gray-100 rounded-xl shadow-lg flex items-center justify-center border-4 border-indigo-200">
                         <span class="text-indigo-500 font-bold text-xl">
-                            [Image of a person working on a laptop]
+                            [Placeholder for Creator Image]
                         </span>
                     </div>
                 </div>
@@ -93,7 +92,7 @@
                 <!-- Project Card 3 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
                     <h4 class="text-xl font-semibold text-indigo-600 mb-3">Browser Deployment</h4>
-                    <p class="text-gray-600">Expertise in using services like Netlify and GitHub Pages for zero-cost, quick online hosting.</p>
+                    <p class="text-gray-600">Expertise in using services like GitHub Pages for zero-cost, quick online hosting.</p>
                 </div>
             </div>
         </div>
@@ -107,16 +106,16 @@
                 The fastest way to get started is to use a free online builder, but I'm here if you want to use the code approach!
             </p>
             <!-- Mock Contact Action -->
-            <button class="px-8 py-3 text-lg font-semibold bg-white text-indigo-700 rounded-lg shadow-xl hover:bg-indigo-100 transition duration-300 transform hover:scale-105">
+            <a href="mailto:contact@example.com" class="px-8 py-3 text-lg font-semibold bg-white text-indigo-700 rounded-lg shadow-xl hover:bg-indigo-100 transition duration-300 transform hover:scale-105">
                 Send Me an Email (Mock Button)
-            </button>
+            </a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-6">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
-            &copy; 2025 My Online Project. Built 100% in a Web Browser.
+            &copy; 2025 My Personal Portfolio. Built 100% in a Web Browser.
         </div>
     </footer>
 
